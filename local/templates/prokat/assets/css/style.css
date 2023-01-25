@@ -1,0 +1,169 @@
+.nav-pills .nav-link:hover {
+    color: var(--bs-nav-link-color) !important;
+}
+
+.nav-pills .nav-link.active:hover {
+    color: white !important;
+}
+
+.carousel-inner {
+    height: 340px;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.carousel-inner-detail img {
+    filter: initial;
+    object-fit: contain;
+}
+
+.carousel-inner-detail {}
+
+.cards {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.card img {
+    transform: scale(1);
+    transition: transform 0.25s ease;
+    max-width: 95%;
+    height: 170px;
+    object-fit: contain;
+}
+
+@media(max-width: 575px) {
+    .card img {
+        height: 140px;
+    }
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+.description-section p {
+    font-size: 1.2rem
+}
+
+@media(max-width: 767px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    #carouselExampleDark .carousel-inner {
+        height: 290px;
+    }
+}
+
+.socials a {
+    width: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+
+.socials a:hover {
+    transform: scale(1.05);
+}
+
+
+.whatsapp {
+    background-image: url(../img/socials/whatsapp.png);
+}
+
+.viber {
+    background-image: url(../img/socials/viber.png);
+}
+
+.telegram {
+    background-image: url(../img/socials/telegram.png);
+}
+
+.vk {
+    background-image: url(../img/socials/vk.png);
+}
+
+.inst {
+    background-image: url(../img/socials/inst.png);
+}
+
+.ok {
+    background-image: url(../img/socials/ok.png);
+}
+
+header .socials a {
+    width: 25px;
+    height: 25px;
+}
+
+.phone {
+    color: black;
+    font-weight: 500;
+}
+
+.phone:hover {
+    color: red;
+}
+
+.phone:hover svg {
+    fill: red;
+}
+
+.socials .ms-3:first-child {
+    margin-left: 0 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.link-light.active:hover {
+    color: white !important;
+}
+
+.nav>div {
+    display: flex;
+}
+
+#bx_incl_area_5_1 {
+    width: max-content;
+}
+
+#bx_incl_area_5_2 {
+    display: none;
+}
